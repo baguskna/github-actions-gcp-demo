@@ -1,3 +1,3 @@
 FROM nginx:latest
 
-RUN echo "Hello world!" > /usr/share/nginx/html/index.html
+RUN echo "Hello world! From nginx" > /usr/share/nginx/html/index.html
